@@ -22,7 +22,7 @@
     "require": {
         "illuminate/http": "^9.35|^10.5|^11.0",
         "illuminate/support": "^9.35|^10.5|^11.0",
-        "qawemlilo/laravel-sns-events": "^7.2"
+        "qawemlilo/laravel-sns-events": "*"
     },
     "repositories": [
       {
@@ -52,7 +52,7 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
+    "prefer-stable": false,
     "extra": {
         "laravel": {
             "providers": [
