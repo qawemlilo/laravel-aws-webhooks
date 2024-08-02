@@ -20,10 +20,16 @@
         }
     ],
     "require": {
-        "illuminate/http": "^9.35|^10.5",
-        "illuminate/support": "^9.35|^10.5",
-        "rennokki/laravel-sns-events": "^7.2"
+        "illuminate/http": "^9.35|^10.5|^11.0",
+        "illuminate/support": "^9.35|^10.5|^11.0",
+        "qawemlilo/laravel-sns-events": "^7.2"
     },
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/qawemlilo/laravel-sns-events"
+      }
+    ],
     "autoload": {
         "psr-4": {
             "RenokiCo\\AwsWebhooks\\": "src/"
