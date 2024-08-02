@@ -20,7 +20,9 @@
         }
     ],
     "require": {
-        "qawemlilo/laravel-sns-events": "*"
+        "illuminate/http": "^9.35|^10.5|^11.0",
+        "illuminate/support": "^9.35|^10.5|^11.0",
+        "qawemlilo/laravel-sns-events": "^5.2.1"
     },
     "repositories": [
       {
